@@ -77,7 +77,8 @@
         android:layout_height="wrap_content"
         android:text="HITUNG"
         tools:layout_editor_absoluteX="214dp"
-        tools:layout_editor_absoluteY="292dp" />
+        tools:layout_editor_absoluteY="292dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/txtTinggi"
