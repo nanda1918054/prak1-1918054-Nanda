@@ -7,7 +7,7 @@
     tools:context=".Segitiga">
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/hasil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hasil"
@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.629" />
 
     <EditText
-        android:id="@+id/output_hasil"
+        android:id="@+id/txtHasil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -32,21 +32,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.619" />
 
-    <EditText
-        android:id="@+id/input_tinggi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.86"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.259" />
-
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/tinggi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tinggi"
@@ -59,7 +46,7 @@
         app:layout_constraintVertical_bias="0.278" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/alas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Alas"
@@ -72,7 +59,7 @@
         app:layout_constraintVertical_bias="0.127" />
 
     <EditText
-        android:id="@+id/input_alas"
+        android:id="@+id/txtAlas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -85,10 +72,24 @@
         app:layout_constraintVertical_bias="0.131" />
 
     <Button
-        android:id="@+id/btn_hitung"
+        android:id="@+id/btnHitung"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="HITUNG"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="297dp" />
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <EditText
+        android:id="@+id/txtTinggi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="480dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.864" />
 </androidx.constraintlayout.widget.ConstraintLayout>
